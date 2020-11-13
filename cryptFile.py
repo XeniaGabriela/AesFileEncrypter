@@ -120,8 +120,8 @@ If you forget them, encrypted files cannot not be decrypted anymore in reasonabl
                 print("   You have to define the value of %s" % (arg))
     
         # lower bound for security param 
-        if AES_args["-a"] == "e" and (len(AES_args["-u"]) < 12 or len(AES_args["-k"]) < 6):
-            print("\n   The key and user must consist of 12 characters at least")
+        if AES_args["-a"] == "e" and (len(AES_args["-u"]) < 5 or len(AES_args["-k"]) < 12):
+            print("\n   The key must consist of 12 characters and the username must consists of 5 characters at least")
             sys.exit()
         # security param check
         if AES_args["-a"] == "e" and (len(AES_args["-k"]) < 12):
