@@ -10,11 +10,12 @@ Your encryption parameters will not be saved or hidden anywhere, you will have t
 Requirements
 
 - Python 2.7+ or Python 3.x
-- Python package pycrypto 
+- [Python package pycryptodome](https://pypi.org/project/pycryptodome/) 
 
 Usage
 
 - Clone or download the repository
 - Navigate to the repository
+- Install pycryptodome
 - Type 'python cryptFile.py' and follow the instructions
 
